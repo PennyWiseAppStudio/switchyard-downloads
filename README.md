@@ -63,26 +63,6 @@ anywhere. It checks for updates and for your plan with an anonymous id. The
 [privacy policy](https://switchyard-4bu.pages.dev/privacy/) lists exactly what
 is sent.
 
-## Verifying a download
-
-Each release lists the installer's SHA-512 fingerprint in `latest.yml`. The
-built-in updater checks it before installing. To check a download yourself in
-PowerShell:
-
-```powershell
-$h = (Get-FileHash .\Switchyard-Setup.exe -Algorithm SHA512).Hash
-[Convert]::ToBase64String([byte[]] -split ($h -replace '..', '0x$& '))
-```
-
-The result should match the `sha512:` line of that release's `latest.yml`.
-
-## Upgrading from 0.1.8 or earlier
-
-Version 0.1.9 changed the app's ID, so Windows treats newer versions as a
-separate program. **Uninstall the old Switchyard first** (Settings → Apps →
-Installed apps), then run the new installer. Your repositories, layout and
-theme are kept.
-
 ## About this repository
 
 This repository holds **releases only**: there is no source code here.

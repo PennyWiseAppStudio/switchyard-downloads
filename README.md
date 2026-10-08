@@ -23,8 +23,7 @@ Branches stay in their column, so the shape of your history holds still while yo
 
 Get Switchyard from the website:
 **[switchyard-4bu.pages.dev/download](https://switchyard-4bu.pages.dev/download)**.
-It always serves the newest installer from this repository's
-[latest release](https://github.com/PennyWiseAppStudio/switchyard-downloads/releases/latest).
+It always gives you the newest version.
 
 | | |
 | --- | --- |
@@ -62,12 +61,6 @@ Switchyard reads your repositories locally and sends nothing about your code
 anywhere. It checks for updates and for your plan with an anonymous id. The
 [privacy policy](https://switchyard-4bu.pages.dev/privacy/) lists exactly what
 is sent.
-
-## About this repository
-
-This repository holds **releases only**: there is no source code here.
-Switchyard is developed privately; this is the installer's public home, where
-the website's download button and the app's updater find new versions.
 
 ## Help and contact
 

@@ -1,0 +1,58 @@
+name: Bug report
+description: Something in Switchyard doesn't work as it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. **Issues here are public.** Please don't paste private code, file paths, repository names or company details.
+        For anything private, or a security problem, email **pennywise.appstudio@gmail.com** instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect to see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The steps that make it happen, as far as you know them.
+      placeholder: |
+        1. Open a repository
+        2. Click …
+        3. See …
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Switchyard version
+      description: Help → About Switchyard shows it. Filled in for you when you report from the app.
+      placeholder: "0.1.20"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 23H2"
+    validations:
+      required: false
+  - type: input
+    id: git
+    attributes:
+      label: Git version
+      description: The output of `git --version`.
+      placeholder: "git version 2.47.0.windows.1"
+    validations:
+      required: false
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else?
+      description: Screenshots help. Check them for private details first.
+    validations:
+      required: false

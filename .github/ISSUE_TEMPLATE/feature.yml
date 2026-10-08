@@ -1,0 +1,31 @@
+name: Feature request
+description: Something you'd like Switchyard to do.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. **Issues here are public**, so please leave out private code, paths and company details.
+        Before posting, [search the existing requests](https://github.com/PennyWiseAppStudio/switchyard-downloads/issues?q=label%3Aenhancement) and add a 👍 to one that matches.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The task or problem, in your own words. This matters more than the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: How you imagine it working in Switchyard.
+    validations:
+      required: false
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you do it today?
+      description: In another tool, on the command line, or not at all.
+    validations:
+      required: false

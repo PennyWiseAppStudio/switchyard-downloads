@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Something private, or a security problem
+    url: https://switchyard-4bu.pages.dev/contact/
+    about: Email pennywise.appstudio@gmail.com instead of posting in public.
+  - name: How to use Switchyard
+    url: https://switchyard-4bu.pages.dev/docs/
+    about: The documentation, with every keyboard shortcut.

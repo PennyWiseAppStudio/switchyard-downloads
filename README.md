@@ -1,34 +1,100 @@
-# Switchyard downloads
+<div align="center">
 
-Windows installers for [Switchyard](https://switchyard-web-amber.vercel.app), a
-desktop Git client by Pennywise App Studio.
+# Switchyard
 
-This repository holds **releases only** — there is no source here. The
-application and the website are developed privately; this exists so the
-installer has a public home, because a private repository's release assets are
-not reachable without signing in.
+**Git history you can actually read.**
 
-## Getting the app
+A fast desktop Git client for Windows, built around one idea: lanes that never move.
+Branches stay in their column, so the shape of your history holds still while you read it.
 
-The download button on the site points at the newest release. It resolves
-through a name that does not change with the version:
+[**Download for Windows**](https://switchyard-4bu.pages.dev/download) ·
+[Website](https://switchyard-4bu.pages.dev) ·
+[Pricing](https://switchyard-4bu.pages.dev/pricing/) ·
+[Documentation](https://switchyard-4bu.pages.dev/docs/) ·
+[Release notes](https://switchyard-4bu.pages.dev/releases/)
 
-    /releases/latest/download/Switchyard-Setup.exe
+**30 days free.** No account, no card.
 
-Each release also carries the versioned file, so a particular build stays
-identifiable after the fact.
+</div>
+
+---
+
+## Download
+
+Get Switchyard from the website:
+**[switchyard-4bu.pages.dev/download](https://switchyard-4bu.pages.dev/download)**.
+It always serves the newest installer from this repository's
+[latest release](https://github.com/PennyWiseAppStudio/switchyard-downloads/releases/latest).
+
+| | |
+| --- | --- |
+| **System** | Windows 10 or 11, 64-bit |
+| **Needs** | [Git for Windows](https://git-scm.com/download/win) 2.31 or newer. Switchyard uses the `git` you already have, with your settings, keys and hooks |
+| **Installs** | for your user only; no administrator rights needed |
+| **Updates** | automatically. Switchyard checks in the background and installs when you restart it |
+
+> **Download only from the website or from this repository's Releases page.**
+> These are the only official sources. A copy from anywhere else may have been
+> changed.
+
+## What it does
+
+- **A commit graph that stays readable**, even across 100,000+ commits.
+- **Stage hunks or single lines**, discard parts of a file, and undo almost anything.
+- **Resolve merge conflicts** in a three-way editor, one conflict at a time.
+- **Branches, tags, stashes, worktrees, rebase, cherry-pick and bisect**, all from menus.
+- **Pull requests** for GitHub, GitLab and Azure DevOps, with line comments and CI status.
+- **Search history** by text, path, author or date, and search every file in the repository.
+
+See the [documentation](https://switchyard-4bu.pages.dev/docs/) for everything,
+with [every keyboard shortcut](https://switchyard-4bu.pages.dev/docs/#shortcuts).
+
+## Pricing
+
+Every feature is free for 30 days. After that there is one plan, monthly or
+yearly. See the [pricing page](https://switchyard-4bu.pages.dev/pricing/).
+Out of plan, Switchyard becomes read-only, never locked: every repository
+still opens and reads.
+
+## Your code stays on your computer
+
+Switchyard reads your repositories locally and sends nothing about your code
+anywhere. It checks for updates and for your plan with an anonymous id. The
+[privacy policy](https://switchyard-4bu.pages.dev/privacy/) lists exactly what
+is sent.
+
+## Verifying a download
+
+Each release lists the installer's SHA-512 fingerprint in `latest.yml`. The
+built-in updater checks it before installing. To check a download yourself in
+PowerShell:
+
+```powershell
+$h = (Get-FileHash .\Switchyard-Setup.exe -Algorithm SHA512).Hash
+[Convert]::ToBase64String([byte[]] -split ($h -replace '..', '0x$& '))
+```
+
+The result should match the `sha512:` line of that release's `latest.yml`.
 
 ## Upgrading from 0.1.8 or earlier
 
-Version 0.1.9 installs under a new application ID, so Windows treats it as a
-separate program rather than an update. **Uninstall the old Switchyard first**
-(Settings → Apps → Installed apps), then run the new installer. Your open
-repositories, panel sizes and theme are kept: they are stored by the app's
-name, which has not changed.
+Version 0.1.9 changed the app's ID, so Windows treats newer versions as a
+separate program. **Uninstall the old Switchyard first** (Settings → Apps →
+Installed apps), then run the new installer. Your repositories, layout and
+theme are kept.
 
-## Help
+## About this repository
 
-How to use the app, with every keyboard shortcut:
-<https://switchyard-web-amber.vercel.app/docs/> — or press **F1** in the app.
+This repository holds **releases only**: there is no source code here.
+Switchyard is developed privately; this is the installer's public home, where
+the website's download button and the app's updater find new versions.
 
-Problems: <pennywise.appstudio@gmail.com>
+## Help and contact
+
+- **How to use it:** the [documentation](https://switchyard-4bu.pages.dev/docs/), or press **F1** in the app.
+- **Problems, questions or a security issue:** [pennywise.appstudio@gmail.com](mailto:pennywise.appstudio@gmail.com).
+- **Terms:** [terms](https://switchyard-4bu.pages.dev/terms/) ·
+  [privacy](https://switchyard-4bu.pages.dev/privacy/) ·
+  [refunds](https://switchyard-4bu.pages.dev/refunds/)
+
+<sub>© 2026 Pennywise App Studio</sub>

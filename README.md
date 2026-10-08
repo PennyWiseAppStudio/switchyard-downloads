@@ -4,70 +4,66 @@
 
 **Git history you can actually read.**
 
-A fast desktop Git client for Windows, built around one idea: lanes that never move.
-Branches stay in their column, so the shape of your history holds still while you read it.
+A fast, simple Git app for Windows. Your branches stay in their own lanes,
+so you can always see how your work fits together.
 
 [**Download for Windows**](https://switchyard-4bu.pages.dev/download) ·
 [Website](https://switchyard-4bu.pages.dev) ·
 [Pricing](https://switchyard-4bu.pages.dev/pricing/) ·
-[Documentation](https://switchyard-4bu.pages.dev/docs/) ·
-[Release notes](https://switchyard-4bu.pages.dev/releases/)
+[How to use it](https://switchyard-4bu.pages.dev/docs/) ·
+[What's new](https://switchyard-4bu.pages.dev/releases/)
 
-**30 days free.** No account, no card.
+**Free for 30 days.** No account, no card.
 
 </div>
 
 ---
 
-## Download
+## Get Switchyard
 
-Get Switchyard from the website:
-**[switchyard-4bu.pages.dev/download](https://switchyard-4bu.pages.dev/download)**.
-It always gives you the newest version.
+1. **[Download Switchyard for Windows](https://switchyard-4bu.pages.dev/download)**.
+2. Open the downloaded file. It installs in a few seconds.
+3. Open a folder with your Git project in it, and you're ready.
 
-| | |
-| --- | --- |
-| **System** | Windows 10 or 11, 64-bit |
-| **Needs** | [Git for Windows](https://git-scm.com/download/win) 2.31 or newer. Switchyard uses the `git` you already have, with your settings, keys and hooks |
-| **Installs** | for your user only; no administrator rights needed |
-| **Updates** | automatically. Switchyard checks in the background and installs when you restart it |
+You'll need **Windows 10 or 11** and **[Git for Windows](https://git-scm.com/download/win)**.
+Switchyard keeps itself up to date.
 
-> **Download only from the website or from this repository's Releases page.**
-> These are the only official sources. A copy from anywhere else may have been
-> changed.
+> Only download Switchyard from [our website](https://switchyard-4bu.pages.dev)
+> or this page's **Releases**. Copies from anywhere else may not be genuine.
 
-## What it does
+## What you can do
 
-- **A commit graph that stays readable**, even across 100,000+ commits.
-- **Stage hunks or single lines**, discard parts of a file, and undo almost anything.
-- **Resolve merge conflicts** in a three-way editor, one conflict at a time.
-- **Branches, tags, stashes, worktrees, rebase, cherry-pick and bisect**, all from menus.
-- **Pull requests** for GitHub, GitLab and Azure DevOps, with line comments and CI status.
-- **Search history** by text, path, author or date, and search every file in the repository.
+- **See your history clearly**, even in very large projects.
+- **Choose exactly what to commit**, down to single lines, and undo almost anything.
+- **Fix merge conflicts** side by side, one at a time.
+- **Work with branches** without typing commands.
+- **Handle pull requests** from GitHub, GitLab and Azure DevOps.
+- **Find anything**: search by message, file, person or date.
 
-See the [documentation](https://switchyard-4bu.pages.dev/docs/) for everything,
-with [every keyboard shortcut](https://switchyard-4bu.pages.dev/docs/#shortcuts).
+[See everything Switchyard can do →](https://switchyard-4bu.pages.dev/docs/)
 
 ## Pricing
 
-Every feature is free for 30 days. After that there is one plan, monthly or
-yearly. See the [pricing page](https://switchyard-4bu.pages.dev/pricing/).
-Out of plan, Switchyard becomes read-only, never locked: every repository
-still opens and reads.
+Everything is free for 30 days. After that, choose monthly or yearly:
+[see prices](https://switchyard-4bu.pages.dev/pricing/).
 
-## Your code stays on your computer
+If your plan ends, Switchyard never locks you out. You can still open and
+read all your projects; you just can't make changes until you renew.
 
-Switchyard reads your repositories locally and sends nothing about your code
-anywhere. It checks for updates and for your plan with an anonymous id. The
-[privacy policy](https://switchyard-4bu.pages.dev/privacy/) lists exactly what
-is sent.
+## Your work stays private
 
-## Help and contact
+Your code and projects stay on your computer and are never sent to us.
+[Read our privacy policy](https://switchyard-4bu.pages.dev/privacy/).
 
-- **How to use it:** the [documentation](https://switchyard-4bu.pages.dev/docs/), or press **F1** in the app.
-- **Problems, questions or a security issue:** [pennywise.appstudio@gmail.com](mailto:pennywise.appstudio@gmail.com).
-- **Terms:** [terms](https://switchyard-4bu.pages.dev/terms/) ·
-  [privacy](https://switchyard-4bu.pages.dev/privacy/) ·
-  [refunds](https://switchyard-4bu.pages.dev/refunds/)
+## Need help?
+
+- **Learn how to use it:** read the [guide](https://switchyard-4bu.pages.dev/docs/), or press **F1** in the app.
+- **Found a bug or have an idea?** In the app, open **Help → Report a bug** or **Request a feature**.
+  Reports here are public, so please leave out private code and company details.
+- **Anything private:** email [pennywise.appstudio@gmail.com](mailto:pennywise.appstudio@gmail.com).
+
+[Terms](https://switchyard-4bu.pages.dev/terms/) ·
+[Privacy](https://switchyard-4bu.pages.dev/privacy/) ·
+[Refunds](https://switchyard-4bu.pages.dev/refunds/)
 
 <sub>© 2026 Pennywise App Studio</sub>
